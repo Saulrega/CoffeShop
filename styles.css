@@ -112,3 +112,85 @@ label {
    border: 1px solid #fff;
    color: #fff;
 }
+
+
+.container_about {
+   width: 90%;
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   padding: 5rem 0;
+
+}
+
+.col-1 {
+   width: 100%;
+}
+
+.col-1 img {
+   width: 100%;
+}
+
+.col-2 {
+   width: 100%;
+}
+
+.col-2 h3 {
+   font-size: 1.3rem;
+   color: #512a10;
+   font-weight: 300;
+}
+
+.col-2 h2 {
+   color:#512a10;
+   padding-top: 10px;
+   font-weight: 400;
+}
+.col-2 p {
+   padding: 1rem 0;
+   font-size: 0.9rem;
+   line-height: 2;
+   color: #666;
+   margin-bottom: 0;
+}
+
+.col-2 .btn-button {
+   position: relative;
+   text-decoration: none;
+   padding: 12px 30px;
+   margin-top: 20px;
+   display: inline-block;
+   background-color: transparent;
+   border: 0.1rem solid #512a10;
+   color: #512a10;
+}
+
+.icons_container {
+   width: 100%;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin-top: 20px;
+}
+
+.icons_container .icons {
+   width: 48%;
+   margin: 5px 1px;
+   background-color: #eee;
+   padding-top: 10px;
+   text-align: center;
+   color: #512a10;
+}
+
+.icons_container .icons:nth-child(3) {
+   width: 100%;
+}
+
+.icons_container .icons i {
+   display: block;
+   font-size: 1.6rem;
+   align-items: center;
+}
+
+
+
